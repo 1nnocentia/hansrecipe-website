@@ -15,7 +15,8 @@ const Navbar: React.FC = () => {
     <nav className="fixed w-full z-50 bg-earth/80 backdrop-blur-md border-b border-gray-100">
       <div className={THEME.spacing.container}>
         <div className="flex justify-between h-20 items-center">
-          <div className="flex-shrink-0 flex items-center">
+          <div className="shrink-0 flex items-center">
+            {/* <img src="/hansrecipe-website/src/assets/logo-bg.png" alt="Han's Recipe Logo" className="h-10 w-10 mr-3" /> */}
             <span className="text-2xl font-serif font-bold tracking-tight text-sage">Han's Recipe</span>
           </div>
           
