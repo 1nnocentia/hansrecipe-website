@@ -9,13 +9,11 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-3xl font-serif font-bold mb-6">Han's Recipe</h3>
             <p className="text-white/70 max-w-sm mb-8 leading-relaxed">
-              Kami adalah rumah bagi makanan dan minuman fermentasi berkualitas. 
-              Membawa tradisi sehat ke meja makan modern Anda.
+              Rumah Makanan dan Minuman Fermentasi berkualitas.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-white/50 transition-colors">Instagram</a>
-              <a href="#" className="hover:text-white/50 transition-colors">TikTok</a>
-              <a href="#" className="hover:text-white/50 transition-colors">Facebook</a>
+              <a href="https://www.instagram.com/hans.recipe/" className="hover:text-white/50 transition-colors">Instagram</a>
+              {/* <a href="#" className="hover:text-white/50 transition-colors">TikTok</a> */}
             </div>
           </div>
           
@@ -24,8 +22,8 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-white/70">
               <li><a href="#home" className="hover:text-white">Home</a></li>
               <li><a href="#products" className="hover:text-white">Koleksi</a></li>
-              <li><a href="#about" className="hover:text-white">Tentang Kami</a></li>
               <li><a href="#benefits" className="hover:text-white">Manfaat</a></li>
+              <li><a href="#about" className="hover:text-white">Tentang Kami</a></li>
             </ul>
           </div>
           
