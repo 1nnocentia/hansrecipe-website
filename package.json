@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://1nnocentia.github.io/hansrecipe-website/",
+  "homepage": "https://1nnocentia.github.io/react-hansrecipe/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
