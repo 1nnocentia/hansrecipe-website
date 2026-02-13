@@ -1,3 +1,5 @@
+// Theme constants untuk Han's Recipe
+// Warna didefinisikan di index.css menggunakan @theme (Tailwind CSS v4)
 export const THEME = {
     colors: {
         primary: 'sage',

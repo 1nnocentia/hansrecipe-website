@@ -8,7 +8,7 @@ const About: React.FC = () => {
                     <div className = "lg:w-1/2 relative">
                         <div className= "relative z-10 rounded-3xl overflow-hidden shadow-2xl">
                             <img
-                                src=""
+                                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800&auto=format&fit=crop"
                                 alt= "About Hans' Recipe"
                                 className="w-full h-full object-cover"
                             />
@@ -35,5 +35,7 @@ const About: React.FC = () => {
             </div>
 
         </section>
-    )
-}
+    );
+};
+
+export default About;
