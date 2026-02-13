@@ -3,7 +3,7 @@ import { WHATSAPP_NUMBER } from '../constants';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-sage text-white py-20">
+    <footer className="bg-sage text-white pt-20 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Jakarta, Indonesia
+                Makassar, Indonesia
               </li>
             </ul>
           </div>

@@ -44,7 +44,7 @@ const AIAssistant: React.FC = () => {
 
           <div className="p-4 bg-white border-t border-gray-100">
             <div className="flex space-x-2">
-              <input value={input} onChange={(e) => setInput(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && sendMessage()} placeholder="Tanyakan manfaat kombucha..." className="grow px-4 py-3 bg-gray-100 rounded-xl text-sm focus:outline-none" />
+              <input value={input} onChange={(e) => setInput(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && sendMessage()} placeholder="Tanyakan manfaat kimchi..." className="grow px-4 py-3 bg-gray-100 rounded-xl text-sm focus:outline-none" />
               <button onClick={sendMessage} className="bg-sage text-white p-3 rounded-xl"><svg className="w-5 h-5 rotate-90" fill="currentColor" viewBox="0 0 20 20"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" /></svg></button>
             </div>
           </div>
