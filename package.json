@@ -1,16 +1,16 @@
 {
+  "homepage": "https://1nnocentia.github.io/hansrecipe-website/",
   "name": "hansrecipe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://1nnocentia.github.io/react-hansrecipe/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d deploy"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
