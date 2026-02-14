@@ -14,12 +14,11 @@ const Hero: React.FC = () => {
             Dari Oven ke <span className="italic text-sage">Botol Fermentasi</span>
           </Heading>
           <p className="font-sans text-gray-600 leading-relaxed text-lg md:text-xl mb-10">
-            Dulu kami menyajikan bolu dan lumpia. Kini, kami mendedikasikan diri untuk seni fermentasi alami. 
-            Menghadirkan probiotik terbaik untuk tubuhmu melalui cara yang paling lezat.
+            Berawal dari kehangatan kue rumahan, kini Han's Recipe hadir dengan koleksi makanan dan minuman fermentasi yang mengutamakan keseimbangan rasa dan kesehatan tubuh kamu.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button onClick={() => window.location.href = '#products'} className="px-10 py-4 shadow-lg hover:-translate-y-1">
-              Lihat Koleksi Produk
+              Jelajahi Menu Fermentasi
             </Button>
             <Button variant="outline" onClick={() => window.location.href = '#about'} className="px-10 py-4">
               Cerita Kami

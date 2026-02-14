@@ -22,12 +22,10 @@ const About: React.FC = () => {
                         </h2>
                         <div className = "space-y-6 text-lg text-gray-600 leading-relaxed">
                             <p>
-                                Han's Recipe memulai perjalanan sebagai penyedia kue dan gorengan.
-                                Namun, rasa ingin tahu kami akan kesehatan membawa kami ke dunia fermentasi—sebuah seni purba yang menyelaraskan rasa dengan kesejahteraan tubuh.
+                                Selama bertahun-tahun, Han's Recipe menemani momen manis Anda melalui Lumpia, Lapis Surabaya, dan aneka kue kering pilihan. Namun, rasa ingin tahu kami membawa kami lebih dalam ke dunia kuliner.
                             </p>
                             <p>
-                                Kami percaya bahwa apa yang kita makan membentuk kehidupan kita.
-                                Melalui proses fermentasi alami tanpa pengawet, kami mengubah bahan sederhana menjadi sumber probiotik yang kaya dan kompleks.
+                                Kini, kami mendedikasikan dapur kami untuk seni fermentasi. Dengan tetap mempertahankan kualitas bahan terbaik, kami mengubah bahan pangan menjadi sumber nutrisi yang kaya akan probiotik, menciptakan harmoni antara kelezatan kuno dan gaya hidup modern.
                             </p>
                         </div>
                     </div>
