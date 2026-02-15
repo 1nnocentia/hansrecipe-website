@@ -21,12 +21,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </span>
         </div>
       </div>
-      <div className="p-8 flex flex-col flex-grow">
+      <div className="p-8 flex flex-col grow">
         <div className="flex justify-between items-start mb-4">
           <h3 className="text-2xl font-serif font-bold text-gray-900 group-hover:text-sage transition-colors">{product.name}</h3>
           <span className="text-sage font-bold text-lg">{product.price}</span>
         </div>
-        <p className="text-gray-600 mb-6 flex-grow leading-relaxed">{product.description}</p>
+        <p className="text-gray-600 mb-6 grow leading-relaxed">{product.description}</p>
         <div className="mb-6 space-y-2">
           {product.benefits.map((benefit: string, idx: number) => (
             <div key={idx} className="flex items-center text-sm text-gray-500">

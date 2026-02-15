@@ -31,7 +31,7 @@ const App: React.FC = () => {
         <Section id="products">
           <div className="text-center mb-16">
             <Heading className="mb-4">Koleksi Fermentasi Kami</Heading>
-            <p className="text-gray-600 max-w-2xl mx-auto">Pilih dari beragam produk fermentasi kami yang dirancang untuk mendukung kesehatan usus dan memberikan cita rasa unik.</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">Pilih dari beragam produk fermentasi yang dirancang untuk mendukung kesehatan usus dan memberikan cita rasa unik.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {PRODUCTS.map((product) => <ProductCard key={product.id} product={product} />)}
